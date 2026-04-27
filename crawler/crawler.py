@@ -82,4 +82,4 @@ if __name__ == "__main__":
         with open("phones.txt", "w") as f:
             for num in results:
                 f.write(num + "\n")
-        print(f"\n✅ Results saved to phones.txt ({len(results)} numbers)")
+        print(f"\nResults saved to phones.txt ({len(results)} numbers)")
